@@ -1,0 +1,6 @@
+Notar que respecto a Stage1 se han hecho algunos ajuster menores al diseño.
+Es normal que conforme se avanza en el desarrollo iterativo e incremental
+se identifiquen mejoras en la iteración previa que son incorporadas en la 
+nueva versión. Éste es el caso de la clase Sensor donde se optó por elminar
+SwitchState por sólo registrar dos estados, los cuales bien puede registrar
+una variable boolean.
