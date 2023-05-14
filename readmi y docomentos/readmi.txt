@@ -1,0 +1,29 @@
+Felipe Salas Ortiz 202030544-7
+Fabian Soto 201844533-9
+Javiera Fuentes Orellana 202110518-2
+
+En esta tarea, se busca practicar la implementación de la orientación
+a objetos en un sistema de seguridad para hogares. Para lograr esto, 
+se debe modelar y programar los diferentes elementos del sistema,
+ incluyendo los sensores (magnético, infrarrojo ) y el dispositivo de 
+alerta (sirena).
+
+
+EL programa puede ser compilado y ejecutado en cada una de sus 4 etapas.
+Cada etapa es compilada y ejecutada a travez de un makefile,para esto hay que realizar los siguientes
+comandos estando dentro de una terminal ubicada en la carpeta donde se encuentra este proyecto:
+$make        #Para compilar el archivo
+$make run    #Para ejecutar el archivo  
+$make clear  #Para Eliminar los archivos .class creados	
+
+Es importante tener en cuenta que, antes de ejecutar el makefile, se deben modificar las rutas de las librerías 
+de JavaFX para que el programa se compile correctamente.
+
+Para generar la documentación javadoc del sensor, se debe ejecutar el siguiente comando en la terminal:
+
+$javadoc -d docDirectory Sensor.java
+$javadoc -d docDirectory PIR_Dectector.java
+
+
+	
+
